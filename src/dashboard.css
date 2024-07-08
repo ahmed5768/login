@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 5px;
+    flex-direction: column;
+    color: white;
+    backdrop-filter: blur(15px);
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.login-box h1,
+.login-box p{
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+flex-direction: column;
+  background-image: url('images/nbg2.jfif');
+  /* background-color: black; */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  animation: animateBg 5s linear infinite ;
+  position: relative;
+}
+@keyframes animateBg {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
